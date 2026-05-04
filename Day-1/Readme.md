@@ -359,7 +359,7 @@ docker build --no-cache -t retail-ui:10.0.0 .
 ![alt text](image-34.png)
 
 
-#### Extra commands
+## Extra commands
 
 ```bash
 # remove only "Exited" (stopped) containers
@@ -386,6 +386,16 @@ docker stats
 # View processes inside container:
 docker top <container_name>
 
+# Show Docker disk usage.
+docker system df
+
+# See the layers and commands used to create an image.
+docker history <image>
+
+# List different Docker environments (e.g., local, cloud, remote)
+docker context ls
+
+# select context
+docker context use <name>
 ```
 
-![alt text](image-18.png)
