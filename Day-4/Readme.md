@@ -38,12 +38,15 @@ provider "aws" {
 
 
 #### Terraform Modules
+
 ![alt text](image-10.png)
 ![alt text](image-11.png)
 
 
 - created vpc using module
+
 ![alt text](image-15.png)
+
 ![alt text](image-16.png)
 
 
