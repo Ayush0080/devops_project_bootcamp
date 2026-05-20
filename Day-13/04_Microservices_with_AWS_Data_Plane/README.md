@@ -525,27 +525,6 @@ If everything works, the app should now represent a **fully cloud-native archite
 
 ---
 
-## Clean-up (Optional)
-
-To remove all deployed Kubernetes resources:
-
-```bash
-# Delete Kubernetes Resources
-kubectl delete -f 02_RetailStore_Microservices/04_orders/
-kubectl delete -f 02_RetailStore_Microservices/03_checkout/
-kubectl delete -f 02_RetailStore_Microservices/02_cart/
-kubectl delete -f 02_RetailStore_Microservices/01_catalog/
-kubectl delete -f 02_RetailStore_Microservices/05_ui/
-kubectl delete -f 03_ingress/
-kubectl delete -f 01_secretproviderclass/
-```
->  Always destroy the AWS data plane resources after verifying the demo to avoid unwanted charges.
-
-To remove AWS data plane resources (when demo is done):
-
----
-
-
 
 
 
